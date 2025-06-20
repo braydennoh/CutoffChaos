@@ -6,13 +6,14 @@ We use [meanderpy](https://github.com/zsylvester/meanderpy) to model meandering 
 
 ![Ensemble channel divergence GIF](https://github.com/braydennoh/CutoffChaos/blob/main/figure/1.gif)
 
-**Key idea:**
 Meanderpy is a Lagrangian model, so channel evolution is naturally represented as moving nodes. To systematically quantify divergence between channels, we project the centerlines onto a fixed Eulerian grid and calculate the separation using the Lyapunov exponent.
 
 * **`figure1.ipynb`**: Runs ensembles of reference and perturbed channels and generates ensemble divergence visualizations, like  
+  
   ![Ensemble divergence example](https://github.com/braydennoh/CutoffChaos/blob/main/figure/2.png)
 
 * **`figure2.ipynb`**: Computes the Lyapunov exponent by measuring divergence in the Eulerian map over time.  
+  
   ![Lyapunov exponent example](https://github.com/braydennoh/CutoffChaos/blob/main/figure/3.png)
 
 
