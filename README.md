@@ -4,9 +4,7 @@ This repository accompanies the manuscript “Chaotic behavior in geometric rive
 
 We use [meanderpy](https://github.com/zsylvester/meanderpy) to model meandering rivers. We run a reference channel and a set of initially perturbed channels forward to study the divergence in channel evolution due to cutoff events.
 
-<p align="center">
-  <img src="https://github.com/braydennoh/CutoffChaos/blob/main/figure/1.gif" alt="Ensemble channel divergence GIF" width="400"/>
-</p>
+![Ensemble channel divergence GIF](https://github.com/braydennoh/CutoffChaos/blob/main/figure/1.gif)
 
 **Key idea:**
 Meanderpy is a Lagrangian model, so channel evolution is naturally represented as moving nodes. To systematically quantify divergence between channels, we project the centerlines onto a fixed Eulerian grid and calculate the separation using the Lyapunov exponent.
@@ -16,7 +14,6 @@ Meanderpy is a Lagrangian model, so channel evolution is naturally represented a
 
 * **`figure2.ipynb`**: Computes the Lyapunov exponent by measuring divergence in the Eulerian map over time.
 
----
 
 ## How to Use
 
@@ -27,7 +24,7 @@ Meanderpy is a Lagrangian model, so channel evolution is naturally represented a
    cd CutoffChaos
    ```
 
-2. **Install dependencies** (requires `meanderpy`, `numpy`, `matplotlib`, etc.):
+2. **Install dependencies** (`meanderpy`, `numpy`, `matplotlib`):
 
    ```
    pip install -r requirements.txt
@@ -39,11 +36,8 @@ Meanderpy is a Lagrangian model, so channel evolution is naturally represented a
    * `figure1.ipynb` generates diverging channel ensembles.
    * `figure2.ipynb` calculates and plots the Lyapunov exponent.
 
----
 
 ## Reference
 
 If you use this code, please cite our paper:
 **Noh & Wani, 2025. "Chaotic behavior in geometric river channel evolution over multiple cutoff cycles."**
-
----
