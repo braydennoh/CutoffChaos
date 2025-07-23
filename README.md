@@ -10,7 +10,9 @@ Meanderpy is a Lagrangian model, so channel evolution is naturally represented a
 
 * **`figure1.ipynb`**: Runs ensembles of reference and perturbed channels and generates ensemble divergence visualizations, like  
   
-  ![Ensemble divergence example](https://github.com/braydennoh/CutoffChaos/blob/main/figure/2.png)
+  ![Ensemble divergence example](https://github.com/braydennoh/CutoffChaos/blob/main/figure/chaosriver1.svg)
+  ![Ensemble divergence example](https://github.com/braydennoh/CutoffChaos/blob/main/figure/chaosriver2.svg)
+
 
 * **`figure2.ipynb`**: Computes the Lyapunov exponent by measuring divergence in the Eulerian map over time.  
   
