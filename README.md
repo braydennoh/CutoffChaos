@@ -10,13 +10,18 @@ Meanderpy is a Lagrangian model, so channel evolution is naturally represented a
 
 * **`figure1.ipynb`**: Runs ensembles of reference and perturbed channels and generates ensemble divergence visualizations, like  
   
-  ![Ensemble divergence example](https://github.com/braydennoh/CutoffChaos/blob/main/figure/chaosriver1.svg)
-  ![Ensemble divergence example](https://github.com/braydennoh/CutoffChaos/blob/main/figure/chaosriver2.svg)
+  ![Ensemble divergence example](https://github.com/braydennoh/CutoffChaos/blob/main/figure/asesaega.png)
 
 
-* **`figure2.ipynb`**: Computes the Lyapunov exponent by measuring divergence in the Eulerian map over time.  
+* **`figure2.ipynb`**: Computes the Lyapunov exponent with varying perturbation magnitude.  
   
-  ![Lyapunov exponent example](https://github.com/braydennoh/CutoffChaos/blob/main/figure/3.png)
+  ![Lyapunov exponent example](https://github.com/braydennoh/CutoffChaos/blob/main/figure/paperfigure2.png)
+
+
+* **`figure3.ipynb`**: Computes the Lyapunov exponent with varying grid size.  
+  
+  ![Lyapunov exponent example](https://github.com/braydennoh/CutoffChaos/blob/main/figure/paperfigure3.png)
+
 
 
 ## How to Use
@@ -35,10 +40,11 @@ Meanderpy is a Lagrangian model, so channel evolution is naturally represented a
    ```
 
 3. **Run Notebooks**
-   Open `figure1.ipynb` and `figure2.ipynb` in Jupyter or Colab and run cells sequentially.
+   Open `figure1.ipynb`, `figure2.ipynb`, and `figure3.ipynb` in Jupyter or Colab and run cells sequentially.
 
    * `figure1.ipynb` generates diverging channel ensembles.
-   * `figure2.ipynb` calculates and plots the Lyapunov exponent.
+   * `figure2.ipynb` calculates and plots the Lyapunov exponent with varying perturbation magnitude.  
+   * `figure3.ipynb` calculates and plots the Lyapunov exponent with varying grid size.  
 
 
 ## Reference
